@@ -9,10 +9,10 @@ while (b <= 0):
     b = int(input ("Введіть ще раз b: "))
 
 if a < b:
-    r = a / b - 1
+    X = a / b - 1
 elif a == b:
-    r = -25
+    X = -25
 else:
-    r = (a**3 - 5) / a
+    X = (a**3 - 5) / a
 
-print("Відповідь: " , r)
+print("Відповідь: X = " , X)
