@@ -1,10 +1,10 @@
-n = int(input("Введіть n:"))
-while n <= 1 or n >= 10:
-    n = int(input("Введіть ще раз n: "))
+N = int(input("Введіть N:"))
+while N <= 1 or N >= 9:
+    n = int(input("Введіть ще раз N: "))
 
-for i in range(1, n + 1):
-    num = n
-    for j in range(0, n, 1):
+for i in range(1, N + 1):
+    num = N
+    for j in range(0, N, 1):
         if j >= i:
             print(" ", end = " ")
         else:

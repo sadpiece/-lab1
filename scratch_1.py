@@ -1,9 +1,9 @@
-a = int(input ("Введіть а: "))
+a = int(input ("Введіть а > 0: "))
 
 while (a <= 0):
-    a = int(input ("Введіть а: "))
+    a = int(input ("Введіть ще раз а: "))
 
-b = int(input ("Введіть b: "))
+b = int(input ("Введіть b > 0: "))
 
 while (b <= 0):
     b = int(input ("Введіть ще раз b: "))
